@@ -1,3 +1,68 @@
-html body {
-  font-family: PT Sans;
+html {
+  background-color: #c9b5ab;
+}
+
+h1, h2 {
+  color: #3f1622;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+.beet {
+  font-family: "PT Sans";
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+ol {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.nutrish {
+  font-weight: bold;
+}
+
+img,
+[src="images/beets.jpg"] {
+
+
+}
+
+li a {
+  font-family: "PT Sans";
+  font-weight: bold;
+}
+
+.bundle {
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.weird {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.com {
+  list-style-type: lower-greek;
+}
+
+.root {
+  font-style: normal;
+}
+
+figcaption {
+  text-align: center;
+  font-family: "PT Serif";
+  font-style: italic;
 }
