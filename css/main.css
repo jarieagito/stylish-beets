@@ -12,7 +12,7 @@ a {
 }
 
 .beet {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
 }
 
 a:hover {
@@ -33,19 +33,17 @@ ul {
 }
 
 img,
-[src="images/beets.jpg"] {
-
-
+[src$="images/beets.jpg"] {
+  width: 85%;
 }
 
 li a {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
 }
 
 .bundle {
   font-style: italic;
-  line-height: 1.5;
 }
 
 .weird {
