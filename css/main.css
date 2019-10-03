@@ -1,5 +1,10 @@
 html {
   background-color: #c9b5ab;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "PT Serif", sans-serif;
 }
 
 h1, h2 {
@@ -63,4 +68,12 @@ figcaption {
   text-align: center;
   font-family: "PT Serif";
   font-style: italic;
+}
+
+h2 + p {
+  font-style: italic;
+}
+
+p strong {
+  font-weight: normal;
 }
